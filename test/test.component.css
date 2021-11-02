@@ -1,0 +1,47 @@
+:host::ng-deep .p-card {
+    margin: 30px;
+    margin-bottom: 0%;
+    min-height: 550px;
+    box-shadow: 0 0px 66px 2px rgb(37 36 0 / 18%), 0 3px 25px 0 rgb(10 0 0 / 19%), 0 1px 3px 0 rgb(0 0 0);
+    border-radius: 3px;
+}
+
+:host::ng-deep .p-card .p-card-title {
+    border-bottom: 0 none;
+    background: #4985f5;
+    color: #000000;
+    padding: 0.5rem;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    text-align: center;
+}
+
+.p-inputtext:enabled:focus {
+    border-color: #807e7e00 !important;
+    box-shadow: 0 0px 66px 2px rgb(37 36 0 / 18%), 0 3px 25px 0 rgb(10 0 0 / 19%), 0 1px 3px 0 rgb(0 0 0);
+}
+
+.p-inputtext {
+    width: 200px;
+    height: 35px;
+    border-color: rgba(0, 0, 0, 0.418);
+}
+
+:host::ng-deep .p-splitter-panel-nested {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+:host::ng-deep .p-button {
+    width: 40px;
+    height: 35px;
+    text-align: left;
+    justify-content: space-around;
+}
+
+#look {
+    margin-left: 5px;
+    float: right;
+    text-align: center;
+}

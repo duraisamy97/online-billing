@@ -1,0 +1,184 @@
+            .space {
+                padding: 5px;
+            }
+            
+            input {
+                border-radius: 20px;
+                width: 15rem;
+                text-align: center;
+            }
+            
+             :host::ng-deep .p-button {
+                width: 15rem;
+                border-radius: 20px;
+                background-color: black;
+                border: cornsilk;
+            }
+            
+             :host::ng-deep .p-button:hover {
+                background-color: rgba(8, 8, 8, 0.815);
+            }
+            
+            h2 {
+                text-align: center;
+                font-family: Fantasy;
+                color: black;
+            }
+            
+            .move {
+                margin-top: 30px;
+                overflow: hidden;
+            }
+            
+             :host::ng-deep .p-card {
+                background: #ffffff75;
+                color: #454749;
+                /* border-radius: 20px; */
+                width: fit-content;
+                margin-top: 50%;
+            }
+            
+            .row {
+                width: stretch;
+                background: url('/assets/bg.jfif') center center fixed;
+                background-size: cover;
+                color: white;
+                text-align: center;
+                overflow: hidden;
+                background-position: center;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+            }
+            
+            .containe {
+                text-align: center;
+                color: silver;
+                padding-top: 26%;
+            }
+            
+            #kg {
+                font-size: 20px;
+                color: black;
+                padding: 10px;
+                margin-right: 20px;
+                border: 2px solid black;
+                border-radius: 50%;
+                background: rgba(165, 215, 238, 0);
+            }
+            
+            h1 {
+                font-family: Garamond, serif;
+                color: #52514e;
+                font-weight: bold;
+                text-shadow: rgb(59, 58, 58) 0 1px 0, #4d4c4c 0 2px 0, rgb(82, 80, 80) 0 3px 0, #707070 0 4px 0, rgb(116, 110, 110) 0 5px 0, rgba(0, 0, 0, .1) 0 6px 1px, rgba(0, 0, 0, .1) 0 0 5px, rgba(0, 0, 0, .3) 0 1px 3px, rgba(0, 0, 0, .15) 0 3px 5px, rgba(0, 0, 0, .2) 0 5px 10px, rgba(0, 0, 0, .2) 0 10px 10px, rgba(0, 0, 0, .1) 0 20px 20px;
+            }
+            
+            span {
+                color: rgb(248, 244, 244);
+                position: absolute;
+                color: #fff;
+                background: #1c575d;
+                padding: 10px;
+                z-index: 1;
+                min-width: 11rem;
+                float: right;
+            }
+            
+            span:before {
+                box-sizing: inherit;
+                padding: 0;
+            }
+            
+            span:after {
+                color: #c51244 !important;
+                position: absolute;
+                content: " ";
+                left: -12px;
+                border-right: 15px solid #1c575d;
+                border-top: 10px solid transparent;
+                border-bottom: 10px solid transparent;
+                float: right;
+                padding: 0;
+            }
+            
+            span input,
+            span select,
+            span .c-choice-option {
+                background: #fff0f4;
+                color: #c51244;
+                padding: 0;
+            }
+            
+            span input,
+            span select {
+                border: 1px solid #c51244 !important;
+                padding: 0;
+            }
+            
+            .text {
+                color: red;
+                text-decoration-style: solid;
+                font-weight: bold;
+                text-align: center;
+                text-shadow: 1px 2px black;
+            }
+            
+             :host::ng-deep .p-dialog-header {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-shrink: 0;
+            }
+            
+             :host::ng-deep .p-dialog .p-dialog-header {
+                border-bottom: 0 none;
+                background: #f54949;
+                color: #ffffff;
+                padding: 0.5rem;
+                border-top-right-radius: 3px;
+                border-top-left-radius: 3px;
+            }
+            
+             :host::ng-deep .p-dialog .p-dialog-content {
+                background: #ffffff;
+                color: #495057;
+                padding: 23px 1.5rem 2rem 1.5rem;
+                text-align: center;
+            }
+            
+             :host::ng-deep .p-dialog-content {
+                overflow-y: auto;
+                flex-grow: 1;
+                align-items: center;
+            }
+            
+             :host::ng-deep .p-dialog .p-dialog-footer {
+                border-top: 0 none;
+                background: #ffffff;
+                color: #495057;
+                padding: 0 1.5rem 1.5rem 1.5rem;
+                text-align: center;
+                border-bottom-right-radius: 3px;
+                border-bottom-left-radius: 3px;
+            }
+            
+             :host::ng-deep .p-dialog-footer {
+                flex-shrink: 0;
+            }
+            
+             :host::ng-deep .p-button.p-button-text {
+                background-color: black;
+                color: #f6fbff;
+                border-color: transparent;
+            }
+            
+            p {
+                color: crimson;
+                font-weight: bold;
+            }
+            
+             :host::ng-deep .html,
+            .body {
+                height: 100% !important
+            }

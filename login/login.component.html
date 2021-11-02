@@ -1,0 +1,35 @@
+<div class="row">
+    <div class="col-md-8">
+        <div class="containe">
+            <h1>Welcome!!</h1>
+            <h1>Please Login and Continue....<i class="pi pi-forward" style="color:rgb(106, 172, 189);"></i></h1>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <p-card class="move">
+            <h2> <i id="kg" class="pi pi-user"></i>Log In</h2>
+            <form [formGroup]="loginForm">
+                <div class="space">
+                    <input type="text" id="uname" pInputText placeholder="User Name" formControlName="uname" />
+                    <span *ngIf="loginForm.get('uname')?.hasError('required') && loginForm.get('uname')?.touched ">Enter Your UserName</span>
+                    <div class="text">{{useral}}</div>
+                </div>
+                <div class="space">
+                    <input type="text" pInputText placeholder="Password" type="password" formControlName="pwd" />
+                    <span *ngIf="loginForm.get('pwd')?.hasError('required') && loginForm.get('pwd')?.touched">Enter Your Passward</span>
+                    <div class="text">{{passal}} {{len}}</div>
+
+                </div>
+                <div class="space">
+                    <p-button (click)="fn()" label="Log in"></p-button>
+                </div>
+            </form>
+        </p-card>
+    </div>
+    <p-dialog header="Login Failed" [(visible)]="displayBasic" [modal]="true" [responsive]="true" [style]="{width: '30vw'}" [baseZIndex]="10000">
+        <p>{{Errormsg}}</p>
+        <ng-template pTemplate="footer">
+            <p-button icon="pi pi-check" (click)="displayBasic=false" label="Ok" styleClass="p-button-text"></p-button>
+        </ng-template>
+    </p-dialog>
+</div>
